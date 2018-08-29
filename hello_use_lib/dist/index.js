@@ -163,6 +163,17 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 
 /***/ }),
 
+/***/ "./src/1310669.jpeg":
+/*!**************************!*\
+  !*** ./src/1310669.jpeg ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"43e1cc52172548d92a57a6b315487f56.jpeg\";\n\n//# sourceURL=webpack:///./src/1310669.jpeg?");
+
+/***/ }),
+
 /***/ "./src/index.css":
 /*!***********************!*\
   !*** ./src/index.css ***!
@@ -182,7 +193,7 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader!./inde
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction hello() {\n\tconsole.log(lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' '));\n//\tconsole.log(index_css);\n}\n\nhello();\n\n\n  function component() {\n    var element = document.createElement('div');\n\n    // Lodash, now imported by this script\n    element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' ');\n    element.classList.add('hello');\n\n    return element;\n  }\n\n  document.body.appendChild(component());\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _1310669_jpeg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./1310669.jpeg */ \"./src/1310669.jpeg\");\n/* harmony import */ var _1310669_jpeg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_1310669_jpeg__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nfunction hello() {\n\tconsole.log(lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' '));\n}\n\nhello();\n\n\nfunction component() {\n\tvar element = document.createElement('div');\n\n\t// Lodash, now imported by this script\n\telement.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'webpack'], ' ');\n\telement.classList.add('hello');\n\n\tvar myIcon = new Image();\n\tmyIcon.src = _1310669_jpeg__WEBPACK_IMPORTED_MODULE_2___default.a;\n\telement.appendChild(myIcon);\n\treturn element;\n}\n\ndocument.body.appendChild(component());\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

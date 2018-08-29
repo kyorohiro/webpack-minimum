@@ -1,5 +1,6 @@
 import lodash from 'lodash';
 import './index.css';
+import icon from './1310669.jpeg';
 
 function hello() {
 	console.log(lodash.join(['Hello', 'webpack'], ' '));
@@ -15,6 +16,9 @@ function component() {
 	element.innerHTML = lodash.join(['Hello', 'webpack'], ' ');
 	element.classList.add('hello');
 
+	var myIcon = new Image();
+	myIcon.src = icon;
+	element.appendChild(myIcon);
 	return element;
 }
 
